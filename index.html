@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Ping coming soon page</title>
+    <script
+      src="https://kit.fontawesome.com/24586da879.js"
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <img src="./images/logo.svg" alt="pink logo" />
+        <h1>We are launching <span>soon!</span></h1>
+        <h2>Subscribe and get notified</h2>
+        <form>
+          <div>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your email address..."
+              required
+              oninvalid="document.getElementById('error').style.display = 'block'; 
+            this.style.border = '2px solid var(--Light-Red)'" />
+            <p class="error" id="error">
+              <i>Please provide a valid email address</i>
+            </p>
+          </div>
+          <button type="submit">Notify Me</button>
+        </form>
+      </header>
+      <section>
+        <img
+          src="./images/illustration-dashboard.png"
+          alt="illustration dashboard" />
+      </section>
+    </main>
+    <footer>
+      <section class="social-media">
+        <a href="">
+          <i class="fa-brands fa-facebook-f"> </i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </section>
+      <h3>&copy; Copyright Ping. All rights reserved.</h3>
+    </footer>
+  </body>
+</html>
