@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL](https://your-solution-url.com)
-- Live Site URL: [live site URL](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/responsive-ping-coming-soon-page-using-css-grid-and-flexbox-qdNorxz3YV)
+- Live Site URL: [live site URL](https://yassine-ramla.github.io/Frontend-Mentor-Ping-coming-soon-page-solution/)
 
 ## My process
 
